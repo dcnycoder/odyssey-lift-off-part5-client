@@ -5,7 +5,6 @@ import Pages from "./pages";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-  //uri: "https://space-courses-api.herokuapp.com/", // change to YOUR own production server
   uri: "https://odyssey-lift-off-part5-server-production-75c1.up.railway.app/",
   cache: new InMemoryCache(),
   name: "web",
